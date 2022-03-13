@@ -1,7 +1,6 @@
 package com.sda.hibernate;
 
-import com.sda.hibernate.entity.Dog;
-import lombok.Data;
+import com.sda.hibernate.entityInfoBardzoWazne.Dog;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -28,14 +27,15 @@ public class Main4FindEntity {
             System.out.println(dog2.getName());
         }
         System.out.println("----------------------");
+        //tutaj tworzy swój własny obiekt
         Dog dog3 = session.load(Dog.class, 1L);
         if (dog3 != null) {
             System.out.println(dog3.getId());
             System.out.println(dog3.getName()); //select
         }
 
-
         transaction.commit();
         session.close();
     }
 }
+

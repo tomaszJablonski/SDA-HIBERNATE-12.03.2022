@@ -1,4 +1,4 @@
-package com.sda.hibernate.entity;
+package com.sda.hibernate.entityInfoBardzoWazne;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -12,7 +12,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
                 .configure() // konfiguracja dla hibernate z resources
                 .build();
 
-// Te 3 linijki są zapisane w jednej builderem w linijce 22
+// Te 3 linijki są zapisane w jednym builderem w linijce 20
 //        MetadataSources metadataSources = new MetadataSources(registry);
 //        Metadata metadata = metadataSources.buildMetadata();
 //        SessionFactory sessionFactory1 = metadata.buildSessionFactory();

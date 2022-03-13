@@ -1,6 +1,6 @@
 package com.sda.hibernate;
 
-import com.sda.hibernate.entity.Dog;
+import com.sda.hibernate.entityInfoBardzoWazne.Dog;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
